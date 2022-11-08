@@ -12,13 +12,18 @@ struct ContentView: View {
         VStack {
         Text("Hello")
                 .border(Color.green)
+                .frame(height: 40)
+                
         Text("my name is")
                 .frame(width: 300)
+                .frame(height: 30)
                 .border(Color.blue)
         Text("Isaad")
-                .bordor(Color.brown)
+                .frame(height: 100)
+                .border(Color.brown)
         }
         .border(Color.red)
+        .background(Color.red)
         .padding()
     }
 }
